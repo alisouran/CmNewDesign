@@ -1,0 +1,101 @@
+.banner-content>h1,.banner-content>h2,.banner-content>p,.banner-content>div{
+    direction: rtl !important;
+    text-align: right !important;
+}
+.header .navbar-nav li.active > a::before{
+    right: -9px !important;
+    top: 49px;
+}
+.dropdown-toggle::after{
+    margin-left: 0%;
+    margin-right: .255em;
+}
+
+#navbarSupportedContent > ul{
+    direction: rtl;
+}
+
+#navbarSupportedContent > ul > li > ul > li > a{
+    direction: rtl;
+    text-align: center;
+}
+
+#color-gold{
+    color: gold;
+}
+#dir-rtl{
+    direction: rtl;
+}
+
+.dir-rtl{
+    direction: rtl;
+}
+
+.section-title .title-text h2::before{
+    left: 0;
+    right: -62px;
+}
+
+.title-text{
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.inner-content>p{
+    text-align: justify !important;
+}
+
+.bg-reg{
+    background: #00eda2;
+    color: white !important;
+}
+.counter-up-area .single-counter .count-content span{
+    padding-left: 0;
+    padding-right: 65px;
+}
+.counter-up-area .single-counter .count-content span::before{
+    right: 0 !important;
+}
+
+
+.footer-area .f-content .sub-btn button{
+    right: auto;
+    left: 16%;
+}
+
+.back-contact{
+    background-color: white;
+}
+
+.header-top{
+    background-color: #00000047;
+    transition: .8s;
+}
+.header-fixed{
+    position: fixed !important;
+    transition: .8s;
+    background-color: #00000097;
+}
+
+.center-justify{
+    text-align: justify !important;
+    text-align-last: center !important;
+}
+.motivational-concepts-area .testimonial-wrapper:after{
+    right: auto;
+    left: 33%;
+}
+
+.whos-speaking-area-two .speakers .name a{
+    left: auto;
+    right: 10%;
+}
+.whos-speaking-area-two .speakers:hover .social-icons{
+    right: 15px;
+    left: auto;
+}
+
+.whos-speaking-area-two .speakers .social-icons{
+    left: auto;
+    right: 0;
+}
